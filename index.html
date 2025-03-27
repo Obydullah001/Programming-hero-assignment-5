@@ -3,9 +3,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New assignment</title>
+    <title>Assignment</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <style>
+ .poppins-font {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }</style>
 </head>
-<body>
-    <h1>Hellow World</h1>
+<body class="poppins-font mx-auto px-4 max-w-screen-2xl lg:px-12 bg-slate-200">
+        <header>
+            <nav class="py-6 flex justify-between bg-white">
+                <div class="flex justify-start items-center">
+                    <div>
+                        <img src="./assets/logo.png" alt="">
+                    </div>
+                    <div>
+                        <h1 class="text-4xl"><span class="font-extralight">Dev</span><span class="font-bold">Board</span></h1>
+                    </div>
+                </div>
+                <div class="flex justify-end items-center gap-11">
+                    <div class="flex items-center gap-4" >
+                        <div class="">
+                        <img src="./assets/checkbox.png" alt="">
+                    </div>
+                    <div>
+                        <h1 class="font-bold text-[32px]">
+                            23
+                        </h1>
+                    </div>
+                </div>
+                    <div><img src="./assets/theme-btn.png" alt=""></div>
+                </div>
+            </nav>
+        </header>
+        <main class="p-4 mx-auto">
+            <!-- parent div -->
+             <div class="grid grid-cols-4 gap-9 w-full h-full">
+                 <!-- child div-1 -->
+                 <div class="bg-slate-300 grid-flow-row rounded-xl w-64">
+                    <div class="flex items-center gap-3">
+                        <img class="size-6" src="./assets/checkbox.png" alt="">
+                        <div>
+                            <h1 class="">Task Assigned</h1>
+                            <h1 class="font-bold text-[32px]">05</h1>
+                        </div>
+                    </div>
+                </div>
+                <!-- child div-2 -->
+                <div class="btn gap-5 p-5 w-[524px] -ml-[90px] h-[128px] pr-20 grid-flow-col-dense flex flex-grow  bg-gradient-to-br from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] ... rounded-xl -mr-[100px] ">
+                    <img src="./assets/board.png" alt="">
+                    <h1 class="text-white text-2xl font-medium text-left gap-5">Discover Something <br> New Today!</h1>
+                </div>
+                <!-- child div-3 -->
+                <div class="bg-slate-300 w-64 flex items-center flex-grow-0 justify-between rounded-xl ml-20">
+                    <img class="size-4" src="./assets/calender.png" alt="">
+                    <h1 class="text-[22px]">
+                        Wed ,<br> <span class="font-bold">Jul 28 2025 </span>
+                    </h1>
+                </div>
+               
+                <!-- child div-4 -->
+                <div class="bg-white rounded-2xl w-[366px] row-span-3">
+                    <div class="flex justify-center gap-4 pt-8"><img src="./assets/activity.png" alt="">
+                        <p>Activity Log</p>
+                    </div>
+                    <div class="border-b-2 border-gray-300 border-dashed p-4 justify-center text-center"><button class="btn btn-primary rounded-lg ">Clear History</button></div>
+
+                </div>
+                <!-- child div-5 -->
+                <div><div class="card card-border bg-base-100 w-[342px] h-[317px]  ">
+  <div class="card-body bg-[#F4F7FF] rounded-2xl p-6 ">
+    <button class="bg-white rounded-lg max-w-32 h-10">ShopEase</button>
+    <h2 class="card-title font-medium text-2xl">Fix Mobile Button Issue </h2>
+    <form class="bg-white rounded-md h-[92px] w-72 overflow-y-scroll no-scrollbar " action=""><p class="text-lg">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+        and ensure onClick works properly</p></form>
+    
+    <div class="card-actions justify-end">
+        <p><span class="text-[14px] font-thin ">Deadline</span><br>
+            <span class="font-semibold" >21 March 2025</span></p>
+      <button class="btn btn-primary rounded-lg">Completed</button>
+    </div> 
+  </div>
+</div></div>
+                <!-- child div-6 -->
+                <div><div class="card card-border bg-base-100 w-[342px] h-[317px]  ">
+                    <div class="card-body bg-[#F4F7FF] rounded-2xl p-6 ">
+                      <button class="bg-white rounded-lg max-w-32 h-10">CloudSync</button>
+                      <h2 class="card-title font-medium text-2xl">Add Dark Mode </h2>
+                      <form class="bg-white rounded-md h-[92px] w-72 overflow-y-auto " action=""><p class="text-lg">Store the user's preference in localStorage, update CSS variables dynamically, and apply a smooth transition effect.</p></form>
+                      
+                      <div class="card-actions justify-end">
+                          <p><span class="text-[14px] font-thin ">Deadline</span><br>
+                              <span class="font-semibold" >21 March 2025</span></p>
+                        <button class="btn btn-primary rounded-lg">Completed</button>
+                      </div> 
+                    </div>
+                  </div></div>
+                <!-- child div-7 -->
+                <div><div class="card card-border bg-base-100 w-[342px] h-[317px]  ">
+                    <div class="card-body bg-[#F4F7FF] rounded-2xl p-6 ">
+                      <button class="bg-white rounded-lg max-w-32 h-10">SwiftPay</button>
+                      <h2 class="card-title font-medium text-2xl">Optimize  Home page </h2>
+                      <form class="bg-white rounded-md h-[92px] w-72 overflow-y-auto " action=""><p class="text-lg">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                        and ensure onClick works properly</p></form>
+                      
+                      <div class="card-actions justify-end">
+                          <p><span class="text-[14px] font-thin ">Deadline</span><br>
+                              <span class="font-semibold" >21 March 2025</span></p>
+                        <button class="btn btn-primary rounded-lg">Completed</button>
+                      </div> 
+                    </div>
+                  </div></div>
+                <!-- child div-8 -->
+                <div><div class="card card-border bg-base-100 w-[342px] h-[317px]  ">
+                    <div class="card-body bg-[#F4F7FF] rounded-2xl p-6 ">
+                      <button class="bg-white rounded-lg max-w-32 h-10">Meta</button>
+                      <h2 class="card-title font-medium text-2xl">Add new emoji 🤲</h2>
+                      <form class="bg-white rounded-md h-[92px] w-72 overflow-y-auto " action=""><p class="text-lg">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                          and ensure onClick works properly</p></form>
+                      
+                      <div class="card-actions justify-end">
+                          <p><span class="text-[14px] font-thin ">Deadline</span><br>
+                              <span class="font-semibold" >21 March 2025</span></p>
+                        <button class="btn btn-primary rounded-lg">Completed</button>
+                      </div> 
+                    </div>
+                  </div></div>
+                <!-- child div-9-->
+                <div><div class="card card-border bg-base-100 w-[342px] h-[317px]  ">
+                    <div class="card-body bg-[#F4F7FF] rounded-2xl p-6 ">
+                      <button class="bg-white rounded-lg max-w-32 h-10">Google LLC</button>
+                      <h2 class="card-title font-medium text-2xl">Integrate OpenAI API </h2>
+                      <form class="bg-white rounded-md h-[92px] w-72 overflow-y-auto " action=""><p class="text-lg">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                          and ensure onClick works properly</p></form>
+                      
+                      <div class="card-actions justify-end">
+                          <p><span class="text-[14px] font-thin ">Deadline</span><br>
+                              <span class="font-semibold" >21 March 2025</span></p>
+                        <button class="btn btn-primary rounded-lg">Completed</button>
+                      </div> 
+                    </div>
+                  </div></div>
+                <!-- child div-10 -->
+                <div><div class="card card-border bg-base-100 w-[342px] h-[317px]  ">
+                    <div class="card-body bg-[#F4F7FF] rounded-2xl p-6 ">
+                      <button class="bg-white rounded-lg max-w-32 h-10">Glassdoar</button>
+                      <h2 class="card-title font-medium text-2xl">Improve Job searching  </h2>
+                      <form class="bg-white rounded-md h-[92px] w-72 overflow-y-auto " action=""><p class="text-lg">Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works properly
+                          and ensure onClick works properly</p></form>
+                      
+                      <div class="card-actions justify-end">
+                          <p><span class="text-[14px] font-thin ">Deadline</span><br>
+                              <span class="font-semibold" >21 March 2025</span></p>
+                        <button class="btn btn-primary rounded-lg">Completed</button>
+                      </div> 
+                    </div>
+                  </div></div>
+             </div>
+        </main>
 </body>
 </html>
+ 
