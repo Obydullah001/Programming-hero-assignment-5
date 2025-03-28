@@ -30,7 +30,7 @@
                         <img src="./assets/checkbox.png" alt="">
                     </div>
                     <div>
-                        <h1 class="font-bold text-[32px]">
+                        <h1 id="accumulated-amount" class="font-bold text-[32px]">
                             23
                         </h1>
                     </div>
@@ -48,15 +48,15 @@
                         <img class="size-6" src="./assets/checkbox.png" alt="">
                         <div>
                             <h1 class="">Task Assigned</h1>
-                            <h1 class="font-bold text-[32px]">05</h1>
+                            <h1 id="task-decrease" class="font-bold text-[32px]">6</h1>
                         </div>
                     </div>
                 </div>
                 <!-- child div-2 -->
-                <div class="btn gap-5 p-5 w-[524px] -ml-[90px] h-[128px] pr-20 grid-flow-col-dense flex flex-grow  bg-gradient-to-br from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] ... rounded-xl -mr-[100px] ">
+                <button id="login-btn" class="btn gap-5 p-5 w-[524px] -ml-[90px] h-[128px] pr-20 grid-flow-col-dense flex flex-grow  bg-gradient-to-br from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] ... rounded-xl -mr-[100px] ">
                     <img src="./assets/board.png" alt="">
                     <h1 class="text-white text-2xl font-medium text-left gap-5">Discover Something <br> New Today!</h1>
-                </div>
+                </button>
                 <!-- child div-3 -->
                 <div class="bg-slate-300 w-64 flex items-center flex-grow-0 justify-between rounded-xl ml-20">
                     <img class="size-4" src="./assets/calender.png" alt="">
@@ -66,12 +66,15 @@
                 </div>
                
                 <!-- child div-4 -->
-                <div class="bg-white rounded-2xl w-[366px] row-span-3">
+                <div  class="bg-white rounded-2xl w-[366px] row-span-3">
                     <div class="flex justify-center gap-4 pt-8"><img src="./assets/activity.png" alt="">
                         <p>Activity Log</p>
                     </div>
-                    <div class="border-b-2 border-gray-300 border-dashed p-4 justify-center text-center"><button class="btn btn-primary rounded-lg ">Clear History</button></div>
-
+                    <div class="border-b-2 border-gray-300 border-dashed p-4 justify-center text-center">
+                        <button class="btn btn-primary rounded-lg ">Clear History</button></div>
+                        <div id="activity-work" class="pt-16 pl-7">
+                            <p>hi</p>
+                        </div>
                 </div>
                 <!-- child div-5 -->
                 <div><div class="card card-border bg-base-100 w-[342px] h-[317px]  ">
@@ -84,7 +87,7 @@
     <div class="card-actions justify-end">
         <p><span class="text-[14px] font-thin ">Deadline</span><br>
             <span class="font-semibold" >21 March 2025</span></p>
-      <button class="btn btn-primary rounded-lg">Completed</button>
+      <button  id="btn-complete-1" class="btn btn-primary rounded-lg btn-complete">Completed</button>
     </div> 
   </div>
 </div></div>
@@ -98,7 +101,7 @@
                       <div class="card-actions justify-end">
                           <p><span class="text-[14px] font-thin ">Deadline</span><br>
                               <span class="font-semibold" >21 March 2025</span></p>
-                        <button class="btn btn-primary rounded-lg">Completed</button>
+                        <button id="btn-complete-2" class="btn btn-primary btn-complete rounded-lg">Completed</button>
                       </div> 
                     </div>
                   </div></div>
@@ -113,7 +116,7 @@
                       <div class="card-actions justify-end">
                           <p><span class="text-[14px] font-thin ">Deadline</span><br>
                               <span class="font-semibold" >21 March 2025</span></p>
-                        <button class="btn btn-primary rounded-lg">Completed</button>
+                        <button id="btn-complete-3" class="btn btn-primary btn-complete rounded-lg">Completed</button>
                       </div> 
                     </div>
                   </div></div>
@@ -128,7 +131,7 @@
                       <div class="card-actions justify-end">
                           <p><span class="text-[14px] font-thin ">Deadline</span><br>
                               <span class="font-semibold" >21 March 2025</span></p>
-                        <button class="btn btn-primary rounded-lg">Completed</button>
+                        <button id="btn-complete-4" class="btn btn-complete btn-primary rounded-lg">Completed</button>
                       </div> 
                     </div>
                   </div></div>
@@ -143,7 +146,7 @@
                       <div class="card-actions justify-end">
                           <p><span class="text-[14px] font-thin ">Deadline</span><br>
                               <span class="font-semibold" >21 March 2025</span></p>
-                        <button class="btn btn-primary rounded-lg">Completed</button>
+                        <button id="btn-complete-5" class="btn btn-complete btn-primary rounded-lg">Completed</button>
                       </div> 
                     </div>
                   </div></div>
@@ -158,12 +161,14 @@
                       <div class="card-actions justify-end">
                           <p><span class="text-[14px] font-thin ">Deadline</span><br>
                               <span class="font-semibold" >21 March 2025</span></p>
-                        <button class="btn btn-primary rounded-lg">Completed</button>
+                        <button  id="btn-complete-6" class="btn btn-complete btn-primary rounded-lg">Completed</button>
                       </div> 
                     </div>
                   </div></div>
              </div>
         </main>
+        <script src="./script/login.js"></script>
+        <script src="./script/complete.js"></script>
 </body>
 </html>
  
